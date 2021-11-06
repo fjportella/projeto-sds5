@@ -24,7 +24,7 @@ public class SellerService {
 		
 		// .map converte coleção original para outra coleção, que no caso é a SellerDTO
 		// para cada X da lista original eu quero criar um outro objeto passando o X como argumento
-		// collect converte novamente em Lista
+		// collect converte novamente em ListaSellerService.java
 		return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
 		
 		
